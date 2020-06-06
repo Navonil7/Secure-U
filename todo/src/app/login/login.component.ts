@@ -24,10 +24,10 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  handleBasicAuthLogin() {
+  handleJWTAuthLogin() {
     // console.log(this.username);
     
-    this.basicAuthenticationService.executeAuthenticationService(this.username, this.password)
+    this.basicAuthenticationService.executeJWTAuthenticationService(this.username, this.password)
     .subscribe(
         data => {
           console.log(data)
