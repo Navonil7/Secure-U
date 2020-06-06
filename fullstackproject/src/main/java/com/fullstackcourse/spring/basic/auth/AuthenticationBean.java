@@ -1,4 +1,4 @@
-package com.fullstackcourse.spring.fullstackproject.basic.auth;
+package com.fullstackcourse.spring.basic.auth;
 
 public class AuthenticationBean {
 	private String message;
