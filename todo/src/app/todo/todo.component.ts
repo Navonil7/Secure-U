@@ -32,7 +32,7 @@ export class TodoComponent implements OnInit {
   }
 
   saveTodo() {
-    if(this.id === -1){
+    if(this.id == -1){
       this.toDoService.createTodo('navonil',this.todo).subscribe(
         data => {
           console.log(data);
